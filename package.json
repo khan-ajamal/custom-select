@@ -1,66 +1,67 @@
 {
-  "name": "@ajamal_khan/custom-select",
-  "version": "0.0.0-development",
-  "description": "A lightweight library to create custom select tag",
-  "main": "dist/main.js",
-  "scripts": {
-    "commit": "cz",
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development -w",
-    "test": "echo \"Error: no test specified. Add tests.\"",
-    "dry-release": "semantic-release --dry-run",
-    "semantic-release": "semantic-release"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "release": {
-    "branches": [
-      "main",
-      "next",
-      {
-        "name": "beta",
-        "prerelease": true
-      },
-      {
-        "name": "alpha",
-        "prerelease": true
-      }
-    ]
-  },
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/khan-ajamal/custom-select.git"
-  },
-  "keywords": [
-    "custom-select"
-  ],
-  "author": "Ajamal Khan <ajamalkhan65@gmail.com> (https://ajamalkhan.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/khan-ajamal/custom-select/issues"
-  },
-  "homepage": "https://github.com/khan-ajamal/custom-select#readme",
-  "devDependencies": {
-    "@babel/core": "^7.12.17",
-    "@babel/plugin-proposal-class-properties": "^7.12.13",
-    "@babel/preset-env": "^7.12.17",
-    "babel-loader": "^8.2.2",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.20.0",
-    "eslint-config-prettier": "^7.2.0",
-    "prettier": "^2.2.1",
-    "semantic-release": "^17.3.9",
-    "webpack": "^5.23.0",
-    "webpack-cli": "^4.5.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+    "name": "@ajamal_khan/custom-select",
+    "version": "0.0.0-development",
+    "description": "A lightweight library to create custom select tag",
+    "main": "dist/custom-select.js",
+    "scripts": {
+        "commit": "cz",
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development -w",
+        "test": "echo \"Error: no test specified. Add tests.\"",
+        "dry-release": "semantic-release --dry-run",
+        "semantic-release": "semantic-release"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "release": {
+        "branches": [
+            "main",
+            "next",
+            {
+                "name": "beta",
+                "prerelease": true
+            },
+            {
+                "name": "alpha",
+                "prerelease": true
+            }
+        ]
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/khan-ajamal/custom-select.git"
+    },
+    "keywords": [
+        "custom-select"
+    ],
+    "author": "Ajamal Khan <ajamalkhan65@gmail.com> (https://ajamalkhan.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/khan-ajamal/custom-select/issues"
+    },
+    "homepage": "https://github.com/khan-ajamal/custom-select#readme",
+    "devDependencies": {
+        "@babel/core": "^7.12.17",
+        "@babel/plugin-proposal-class-properties": "^7.12.13",
+        "@babel/preset-env": "^7.12.17",
+        "babel-loader": "^8.2.2",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^7.20.0",
+        "eslint-config-prettier": "^7.2.0",
+        "prettier": "^2.2.1",
+        "semantic-release": "^17.3.9",
+        "webpack": "^5.23.0",
+        "webpack-cli": "^4.5.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "browserslist": "> 0.25%, not dead"
 }
